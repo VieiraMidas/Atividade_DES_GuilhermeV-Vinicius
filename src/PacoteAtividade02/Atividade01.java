@@ -6,7 +6,9 @@ public class Atividade01 {
         
         int i,x,resultado;
         
-        
+        for(i=0;i<38;i++){
+            System.out.print("- ");
+        }System.out.println("");
         for(i=0;i<11;i++){
             
             for(x=1;x<6;x++){
@@ -24,13 +26,23 @@ public class Atividade01 {
             }
             System.out.println("");
         }
+        for(i=0;i<38;i++){
+            System.out.print("- ");
+        }
+        System.out.println("");
+        for(i=0;i<38;i++){
+            System.out.print("- ");
+        }System.out.println("");
         for(i=0;i<11;i++){
             
             for(x=6;x<11;x++){
                 System.out.print("| "+x+" X "+i+" = "+i*x);
                 if(i*x<10){
-                    System.out.print("  ");
-                }else{
+                    System.out.print(" ");
+                }if(i*x==100){
+                    System.out.print("");
+                }
+                else{
                     System.out.print(" ");
                 }
                 if(i<10){
@@ -40,6 +52,9 @@ public class Atividade01 {
                 }
             }
             System.out.println("");
+        }
+        for(i=0;i<38;i++){
+            System.out.print("- ");
         }
 
     }
